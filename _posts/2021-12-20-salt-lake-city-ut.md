@@ -4,7 +4,7 @@ title: Salt Lake City, UT
 permalink: /salt-lake-city-ut
 location:
   title: "Salt Lake City, UT"
-  url: /salt-lake-city-ut
+  url: /2021-12-20-salt-lake-city-ut
   latitude: 40.7608
   longitude: -111.8910
 ---
