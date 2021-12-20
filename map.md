@@ -10,5 +10,5 @@ Rachel & Daniel
 
 {% google_map 
     zoom="1" 
-    src="_posts/" %}
+    src="_posts/*" %}
 
