@@ -8,8 +8,10 @@
 
 
 <meta name="description" content="We went to a pretty getaway weekend!
+
 " />
 <meta property="og:description" content="We went to a pretty getaway weekend!
+
 " />
 
 <meta name="author" content="RB & DE Travel Blog" />
@@ -249,10 +251,10 @@ if (typeof Object.assign !== 'function') {
   <div class="entry">
     <p>We went to a pretty getaway weekend!</p>
 
-<div id="75d1faea-bfb7-49c3-8442-0aaf5d62d211" style="width:600px;height:400px;" class=" jekyll-map"></div>
+<div id="5b1b51c9-7233-45c1-aecf-3101f5ee1e33" style="width:600px;height:400px;" class=" jekyll-map"></div>
 <script type="text/javascript">
   jekyllMaps.register(
-    '75d1faea-bfb7-49c3-8442-0aaf5d62d211',
+    '5b1b51c9-7233-45c1-aecf-3101f5ee1e33',
     [{"latitude":39.62762,"longitude":-106.05053,"title":"Dillon, CO","icon":null,"url":"/dillon-co","url_text":null,"image":"","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"styles":"[]","customZoom":13}
   );
@@ -601,7 +603,7 @@ if (typeof Object.assign !== 'function') {
                   js.id = 'gmap-api';
                   js.setAttribute('async', '');
                   js.setAttribute('defer', '');
-                  js.src = "//maps.google.com/maps/api/js?key=AIzaSyDGlXTnUjLXUD_wNvomw_hrwbsn-6vtZ4Q&callback=jekyllMaps.initializeMap";
+                  js.src = "//maps.google.com/maps/api/js?key=${{ secrets.MapsAPIKey }}&callback=jekyllMaps.initializeMap";
                   fjs.parentNode.insertBefore(js, fjs);
                 }
             }

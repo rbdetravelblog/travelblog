@@ -8,8 +8,10 @@
 
 
 <meta name="description" content="Fun holiday adventures!
+
 " />
 <meta property="og:description" content="Fun holiday adventures!
+
 " />
 
 <meta name="author" content="RB & DE Travel Blog" />
@@ -249,10 +251,10 @@ if (typeof Object.assign !== 'function') {
   <div class="entry">
     <p>Fun holiday adventures!</p>
 
-<div id="2626931f-eb45-4e81-ad76-51517bc062f2" style="width:600px;height:400px;" class=" jekyll-map"></div>
+<div id="35b2bb7b-e98b-47f0-872a-8be28590a79e" style="width:600px;height:400px;" class=" jekyll-map"></div>
 <script type="text/javascript">
   jekyllMaps.register(
-    '2626931f-eb45-4e81-ad76-51517bc062f2',
+    '35b2bb7b-e98b-47f0-872a-8be28590a79e',
     [{"latitude":40.7608,"longitude":-111.891,"title":"Salt Lake City, UT","icon":null,"url":"/salt-lake-city-ut","url_text":null,"image":"","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"styles":"[]","customZoom":13}
   );
@@ -598,7 +600,7 @@ if (typeof Object.assign !== 'function') {
                   js.id = 'gmap-api';
                   js.setAttribute('async', '');
                   js.setAttribute('defer', '');
-                  js.src = "//maps.google.com/maps/api/js?key=AIzaSyDGlXTnUjLXUD_wNvomw_hrwbsn-6vtZ4Q&callback=jekyllMaps.initializeMap";
+                  js.src = "//maps.google.com/maps/api/js?key=${{ secrets.MapsAPIKey }}&callback=jekyllMaps.initializeMap";
                   fjs.parentNode.insertBefore(js, fjs);
                 }
             }
