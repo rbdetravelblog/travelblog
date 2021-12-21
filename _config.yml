@@ -80,6 +80,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
   - jekyll-maps
+  - github-pages
 
 # Exclude these files from your production _site
 exclude:
@@ -90,4 +91,4 @@ exclude:
   - CNAME
   - vendor
 
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
