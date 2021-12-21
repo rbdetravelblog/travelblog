@@ -41,8 +41,8 @@ navigation_links:
   - title: Blog
     url: /
 
-  - title: Map
-    url: /map
+  - title: World Map
+    url: /world-map
 
   - title: Search
     url: /search

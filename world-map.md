@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Map
-permalink: /map
+title: World Map
+permalink: /world-map
 ---
 
 Hi, we like to travel! Come check out our adventures. :)
