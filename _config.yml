@@ -20,7 +20,7 @@ avatar: /assets/image/avatar.png
 # Google Maps API key
 maps:
   google:
-    api_key: ${{ secrets.MapsAPIKey }}
+    api_key: AIzaSyDGlXTnUjLXUD_wNvomw_hrwbsn-6vtZ4Q
 
 #
 # Flags below are optional
