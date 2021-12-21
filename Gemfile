@@ -9,4 +9,3 @@ group :jekyll_plugins do
   gem 'jekyll-maps'
   gem 'github-pages', '~> 222'
 end
-
