@@ -48,7 +48,7 @@ navigation_links:
     url: /search
 
 # Enter your copyright text if you wish to override the default one.
-#copyright: "This site is made with <3 by *me, myself, and I*."
+copyright: "This site is made with <3"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -67,7 +67,7 @@ kramdown:
     css_class: 'highlight'
 
 # Pagination
-paginate: 5
+paginate: 10
 paginate_path: "/page/:num/"
 
 # Set the Sass partials directory, as we're using @imports
@@ -80,7 +80,6 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
   - jekyll-maps
-  - github-pages
 
 # Exclude these files from your production _site
 exclude:
@@ -91,4 +90,4 @@ exclude:
   - CNAME
   - vendor
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
