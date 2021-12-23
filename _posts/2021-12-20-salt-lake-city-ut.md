@@ -9,7 +9,12 @@ location:
 ---
 
 
-Fun holiday adventures!
+# Fun holiday adventures!
+
+* this is a bullet point
+* this is another bullet point
+
+### smaller header
 
 {% google_map 
     zoom="13" %}
