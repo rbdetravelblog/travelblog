@@ -1,3 +1,3 @@
-# Rachel and Daniel Travel Blog
+#  Our Travel Blog
 
 Here's the README
