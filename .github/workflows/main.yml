@@ -23,7 +23,7 @@ jobs:
     - name: Download S3 secret.yml
       run: aws s3 cp ${{ secrets.SECRETS_YML_PATH }} ./_secret.yml
     - name: "Build Site"
-      run:  bundle exec jekyll serve --config _config.yml,_secret.yml
+      run:  bundle exec jekyll build --config _config.yml,_secret.yml
       env:
         JEKYLL_ENV: production
     - name: "Deploy to AWS S3"
