@@ -21,7 +21,7 @@ jobs:
         ruby-version: 2.6
         bundler-cache: true
     - name: Download S3 secret.yml
-      run: aws s3 sync ${{ secrets.SECRETS_YML_PATH }} ./_secret.yml
+      run: aws s3 cp ${{ secrets.SECRETS_YML_PATH }} ./_secret.yml
     - name: "Build Site"
       run:  bundle exec jekyll serve --config _config.yml,_secret.yml
       env:
